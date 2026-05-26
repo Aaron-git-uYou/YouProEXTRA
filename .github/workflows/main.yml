@@ -1,4 +1,4 @@
-name: Test
+name: Build YouTubePlus (YTLite) IPA
 
 on:
   workflow_dispatch:
@@ -361,16 +361,16 @@ jobs:
 
           mv packages/*.deb ${{ github.workspace }}/demc.deb
 
-      - name: Clone and Build YouPro
+      - name: Clone and Build YTVideoErrorAlert
         run: |
           git clone --quiet --depth=1 \
             https://github.com/jaydenjcpy/YouPro.git
 
-          cd YouPro
+          cd YTVideoErrorAlert
 
           make clean package DEBUG=0 FINALPACKAGE=1 THEOS_PACKAGE_SCHEME=rootless
 
-          mv packages/*.deb ${{ github.workspace }}/YouPro.deb
+          mv packages/*.deb ${{ github.workspace }}/ytvideoerror.deb
 
       - name: Clone and Build YTHoldForSpeed
         if: inputs.ythold == true
