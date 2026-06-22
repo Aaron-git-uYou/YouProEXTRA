@@ -120,7 +120,7 @@ jobs:
       HOMEBREW_NO_ENV_HINTS: 1
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v6.0.3
+        uses: actions/checkout@v7.0.0
 
       - name: Hide Sensitive Inputs
         uses: levibostian/action-hide-sensitive-inputs@1.2.0
@@ -249,7 +249,7 @@ jobs:
           mv packages/*.deb ${{ github.workspace }}/ytvo.deb
 
       - name: Checkout Base Tweak
-        uses: actions/checkout@v6.0.3
+        uses: actions/checkout@v7.0.0
         with:
           repository: mrdrvt99/LRD-DLTube
           ref: ${{ inputs.tweak_choice == 'TubeLRD' && 'main' || 'main1' }}

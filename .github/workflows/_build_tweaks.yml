@@ -96,7 +96,7 @@ jobs:
       HOMEBREW_NO_ENV_HINTS: 1
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v6.0.3
+        uses: actions/checkout@v7.0.0
 
       - name: Install Dependencies
         run: |
