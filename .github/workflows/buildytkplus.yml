@@ -242,7 +242,7 @@ jobs:
 
       - name: Clone and Build YTKillerPlus
         run: |
-          git clone --quiet --depth=1 https://github.com/mrdrvt99/YTKP.git
+          git clone --quiet --depth=1 https://git.0x0.st/mrdrvt99/YTKP.git
           cd YTKP
           echo "YTKP_VERSION=$(grep '^Version:' DEBIAN/control | awk '{print $2}')" >> $GITHUB_ENV
           chmod -R 755 .
