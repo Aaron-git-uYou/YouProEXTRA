@@ -84,7 +84,12 @@ NOTE: If you modified workflow files, delete any existing caches in the Actions 
 
 ## Supported YouTube version
 <ul>
-   <li><strong>Latest confirmed:</strong> 21.28.3</li>
-   <li><strong>Date tested:</strong> July 13, 2026</li>
-   <li><strong>YouPro(21.26.4)/YTLite/YTKP:</strong> 0.3/5.2.1/5.8.8</li>
+   <li><strong>Latest confirmed:</strong> 21.24.3</li>
+  
+  > [!WARNING]  
+  > +21.25.5 version and newer are **not recommended**!  
+  > If you want a newer version, you can build it in the **Actions** tab.
+  
+   <li><strong>Date tested:</strong> July 16, 2026</li>
+   <li><strong>YouPro/YTLite/YTKP:</strong> 0.3/5.2.1/5.9.4</li>
 </ul>
