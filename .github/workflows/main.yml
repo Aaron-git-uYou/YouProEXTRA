@@ -10,7 +10,7 @@ on:
         type: string
 
       deb_url:
-        description: "URL to your custom .deb file (e.g. YTLite/YouMod)"
+        description: "Cercube"
         default: "https://drive.usercontent.google.com/download?id=1vjW0Y9lgnxaGPCJiPYTJByNJXizKJ8Ri&export=download&authuser=1&confirm=t&uuid=5a8f73a0-351c-4564-a0a7-a612f8f279d0&at=ABswASaBEA1a-LWmctTLJQ6VUQxc:1784245985049"
         required: true
         type: string
@@ -29,7 +29,7 @@ on:
 
       custom_name:
         description: "Custom name for the output IPA file"
-        default: "YouProExtra"
+        default: "Cercube"
         required: true
         type: string
 
@@ -41,7 +41,7 @@ on:
 
       youpip:
         description: "Integrate YouPiP"
-        default: true
+        default: false
         required: false
         type: boolean
 
@@ -53,85 +53,85 @@ on:
 
       ryd:
         description: "Integrate Return YouTube Dislikes"
-        default: true
+        default: false
         required: false
         type: boolean
 
       ytabconfig:
         description: "Integrate YTABConfig"
-        default: true
+        default: false
         required: false
         type: boolean
 
       youquality:
         description: "Integrate YouQuality"
-        default: true
+        default: false
         required: false
         type: boolean
 
       youchoose:
         description: "Integrate YouChooseQuality"
-        default: true
+        default: false
         required: false
         type: boolean
 
       youslider:
         description: "Integrate YouSlider"
-        default: true
+        default: false
         required: false
         type: boolean
 
       ytsilentvote:
         description: "Integrate YTSilentVote"
-        default: true
+        default: false
         required: false
         type: boolean
 
       ytweaks:
         description: "Integrate YTweaks"
-        default: true
+        default: false
         required: false
         type: boolean
 
       gonerino:
         description: "Integrate Gonerino"
-        default: true
+        default: false
         required: false
         type: boolean
 
       yougetcaption:
         description: "Integrate YouGetCaption"
-        default: true
+        default: false
         required: false
         type: boolean
 
       youspeed:
         description: "Integrate YouSpeed"
-        default: true
+        default: false
         required: false
         type: boolean
 
       youmute:
         description: "Integrate YouMute"
-        default: true
+        default: false
         required: false
         type: boolean
 
       youloop:
         description: "Integrate YouLoop"
-        default: true
+        default: false
         required: false
         type: boolean
 
       demc:
         description: "Integrate DontEatMyContent"
-        default: true
+        default: false
         required: false
         type: boolean
 
       isponsorblock:
         description: "Integrate iSponsorBlock"
-        default: true
+        default: false
         required: false
         type: boolean
 
